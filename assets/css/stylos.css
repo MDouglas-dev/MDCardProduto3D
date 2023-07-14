@@ -1,0 +1,95 @@
+/* Fonts Google */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --bg: #D9CDF7;
+    --font-color: #271A45;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+#card-produto {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 13px;
+}
+
+.card-produto--anded {
+    width: 449px;
+    height: 253px;
+    position: relative;
+}
+
+.card-produto--img {
+    width: 449px;
+    height: 253px;
+}
+
+.card-produto--btn360 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -85px;
+    margin-top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+i {
+    font-size: 20px;
+}
+
+.card-produto--info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-produto--id {
+    color: var(--font-color);
+    font-size: 10px;
+    font-weight: 300;
+    cursor:default;
+}
+
+.card-produto--name {
+    color: var(--font-color);
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    cursor:default;
+}
+
+.card-produto--valor {
+    color: var(--font-color);
+    font-size: 16px;
+    font-weight: 400;
+    cursor:default;
+}
+
+.card-produto--add {
+    width: 165px;
+    display: flex;
+    padding: 8px 16px;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
+    border: 0.5px solid var(--font-color);
+    cursor: pointer;
+}

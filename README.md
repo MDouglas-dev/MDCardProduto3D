@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O MDCard de Produto é um Card de Produto 3D.
 
-- [Acesse o projeto finalizado, online](https://maladro2010.github.io/MDCardProduto3D/)
+- [Acesse o projeto finalizado, online](https://MDouglas-dev.github.io/MDCardProduto3D/)
 
 ## 🔖 Layout
 
